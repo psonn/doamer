@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:                        #ecf0f1;
+$font-family-sans-serif:         'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                  150px;
+$navbar-padding-vertical:        5px;
+$navbar-default-bg:              white;
+$navbar-default-brand-color:     #c0392b;
+$brand-primary:                  #c0392b;
+$jumbotron-bg:                   white;
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.navbar-brand > img {
+	max-width: 250px;
+}
+
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px !important;  /* 50% of your logo width */
+    display: block;
+}
