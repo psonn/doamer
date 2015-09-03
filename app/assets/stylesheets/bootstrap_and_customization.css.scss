@@ -32,3 +32,28 @@ $jumbotron-bg:                   white;
     margin-left: -125px !important;  /* 50% of your logo width */
     display: block;
 }
+
+@media (max-width: 767px) { 
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+.navbar-toggle {
+   margin: 23px 0; 
+}
+
+.navbar-nav, .navbar-nav li, .navbar-nav li a {
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-nav li a {
+  padding-top: 0;
+  padding-bottom:0;
+}
