@@ -9,6 +9,7 @@ $navbar-default-brand-color:     #c0392b;
 $brand-primary:                  #c0392b;
 $jumbotron-bg:                   white;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
@@ -43,4 +44,14 @@ $jumbotron-bg:                   white;
         margin-left: 50%;
         max-height: 100px;
     }
+}
+
+.radio,
+.checkbox {
+  margin-left: 20px;
+}
+
+.radio label,
+.checkbox label {
+  padding-left: 0px;
 }
