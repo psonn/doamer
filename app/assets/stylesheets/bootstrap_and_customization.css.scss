@@ -20,7 +20,7 @@ $jumbotron-bg:                   white;
 }
 
 .navbar-brand > img {
-	max-width: 250px;
+	max-height: 100px;
 }
 
 .navbar {
@@ -39,21 +39,8 @@ $jumbotron-bg:                   white;
     }
 
     .navbar-brand img {
-        margin-top: 5px;
-        margin-left: 5px;
+        margin-top: 10px;
+        margin-left: 50%;
+        max-height: 100px;
     }
-}
-
-.navbar-toggle {
-   margin: 23px 0; 
-}
-
-.navbar-nav, .navbar-nav li, .navbar-nav li a {
-  height: 80px;
-  line-height: 80px;
-}
-
-.navbar-nav li a {
-  padding-top: 0;
-  padding-bottom:0;
 }
