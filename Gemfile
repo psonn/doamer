@@ -27,6 +27,8 @@ gem 'devise'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'foreman'
+  gem 'mailcatcher'
+  gem 'dotenv-rails'
 end
 
 group :production do
